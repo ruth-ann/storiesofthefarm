@@ -1,0 +1,58 @@
+#logo img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   max-width: 300px;
+   height: auto;
+}
+
+
+
+
+.imagecontainer{
+   display: inline-block;
+   float: center;
+}
+
+
+.imagepad {
+   position: relative;
+   padding: 60px;
+   padding-top: 50px;
+
+   /*border: dashed;*/
+}
+
+.imagepad img {
+   width: 80px;
+   height: auto;
+}
+
+
+.overlay {
+ position: absolute;
+ border-color: #000000;
+ border-width: 5px;
+ bottom: 0;
+ left:0;
+ right: 0;
+ overflow: hidden;
+ height: 0%;
+ width: 100%;
+ transition: .5s ease;
+}
+
+.overlay h2{
+   font-size: 20px;
+   color: #000000;
+   bottom: 10px;
+   left: auto;
+   right: auto;
+
+}
+
+
+.imagecontainer :hover .overlay {
+ height: 35%;
+}
